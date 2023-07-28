@@ -1,0 +1,31 @@
+(i)API OverView
+  API is Application Programming Interface where set of rules and protocols are defined to allow
+  different software applications to communicate and interact with each other.
+
+  This API has the functionality of registeration, login ,profile view and logout.
+
+(ii)Endpoint Descriptions in this API
+  'POST/api/user/register/'
+  'POST/api/user/login/'
+  'GET/api/user/profile/'
+  'POST/api/user/logout/'
+
+(iii)Authentication  
+ The Register and the Login methods generates tokens as authentication using Jason Web tokens
+ (jwt tokens)
+
+(iv)Error handling:
+ expeption errors handling, field error handling
+
+(v)Request / Response formats (Json)
+(vi)Permissions required for log in and log out 
+(vii)Tools Used
+   Django_RESET_FRAMEWORK
+   Postman
+
+
+
+Unsolved error in the code:
+   During the execution of login functionality, it returns noneType user from AbstractBaseUser class
+
+   It seems that the problem is raised due to the version installed
